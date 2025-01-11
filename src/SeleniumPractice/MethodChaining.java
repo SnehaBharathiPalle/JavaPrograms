@@ -27,5 +27,9 @@ public class MethodChaining {
 		return this;
 
 	}
+	
+	public void printAll() {
+		System.out.println(name+" "+color+" "+city);
+	}
 
 }

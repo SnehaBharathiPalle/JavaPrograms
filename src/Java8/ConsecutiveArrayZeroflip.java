@@ -4,7 +4,7 @@ public class ConsecutiveArrayZeroflip {
 //https://leetcode.com/problems/max-consecutive-ones-iii/description/
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] nums= {1,1,1,0,0,0,1,1,1,1,0};
+		int[] nums= {0,1,1,0,1,0,1,1,0,0,0};
 		int k=2;
 		int ans=longestOnes(nums,k);
 		System.out.println(ans);
